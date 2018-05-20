@@ -38,7 +38,7 @@
 			<div id="header">
 				<div class="flexslider">
 					<ul class="slides">
-						<li class="slider-item" style="background-image: url('<?php echo URL; ?>/imagenes/item1/')">
+						<li class="slider-item" style="background-image: url('<?php echo URL; ?>/slider/item1/')">
 							<div class="intro container">
 								<div class="inner-intro">
 									<h1 class="header-title">
@@ -53,7 +53,7 @@
 								</div>
 							</div>
 						</li> <!-- /.slider-item -->
-						<li class="slider-item" style="background-image: url('<?php echo URL; ?>/assets/images/item-2.png')">
+						<li class="slider-item" style="background-image: url('<?php echo URL; ?>/slider/item2/')">
 							<div class="intro">
 								<div class="inner-intro">
 									<h1 class="header-title">
@@ -195,22 +195,22 @@
 
 			<div class="owl-carousel visit-carousel" id="">
 				<div class="item">
-					<img src="<?php echo URL; ?>/assets/images/visit-1.png" alt="visit-image" class="img-responsive visit-item">
+					<img src="<?php echo URL; ?>/visitplace/item1/" alt="visit-image" class="img-responsive visit-item">
 				</div>
 				<div class="item">
-					<img src="<?php echo URL; ?>/assets/images/visit-2.png" alt="visit-image" class="img-responsive visit-item">
+					<img src="<?php echo URL; ?>/visitplace/item2/" alt="visit-image" class="img-responsive visit-item">
 				</div>
 				<div class="item">
-					<img src="<?php echo URL; ?>/assets/images/visit-3.png" alt="visit-image" class="img-responsive visit-item">
+					<img src="<?php echo URL; ?>/visitplace/item3/" alt="visit-image" class="img-responsive visit-item">
 				</div>
 				<div class="item">
-					<img src="<?php echo URL; ?>/assets/images/visit-1.png" alt="visit-image" class="img-responsive visit-item">
+					<img src="<?php echo URL; ?>/visitplace/item1/" alt="visit-image" class="img-responsive visit-item">
 				</div>
 				<div class="item">
-					<img src="<?php echo URL; ?>/assets/images/visit-2.png" alt="visit-image" class="img-responsive visit-item">
+					<img src="<?php echo URL; ?>/visitplace/item2/" alt="visit-image" class="img-responsive visit-item">
 				</div>
 				<div class="item">
-					<img src="<?php echo URL; ?>/assets/images/visit-3.png" alt="visit-image" class="img-responsive visit-item">
+					<img src="<?php echo URL; ?>/visitplace/item3/" alt="visit-image" class="img-responsive visit-item">
 				</div>
 			</div>
 		</div> <!-- /.container -->
@@ -220,13 +220,13 @@
 	<div class="container">
 		<div class="offering">
 			<div class="percent">
-				<span>15%</span> off
+				<span>15%</span> de descuento
 			</div>
 			<div class="FTour">
-				for <strong>Family Tour</strong>
+				en <strong>Viaje Familiar</strong>
 			</div>
 			<a class="btn btn-default price-btn" href="#">
-				see our price
+				Consulta nuestros precios
 			</a>
 		</div> <!-- /.offering -->
 	</div> <!-- /.container -->
@@ -235,21 +235,21 @@
 	<section class="additional-services section-wrapper">
 		<div class="container">
 			<h2 class="section-title">
-				Additional services
+				Atractivos adicionales
 			</h2>
 			<p class="section-subtitle">
-				Lorem Ipsum is simply dummy text of the industry.
+				<!-- Lorem Ipsum is simply dummy text of the industry. -->
 			</p>
 			<div class="row">
 				<div class="col-md-4 col-sm-6">
 					<div class="custom-table">
-						<img src="<?php echo URL; ?>/assets/images/add-srvc-1.png" alt="" class="add-srvc-img">
+						<img src="<?php echo URL; ?>//atractives/item1/" alt="" class="add-srvc-img">
 						<div class="add-srvc-detail">
 							<h4 class="add-srvc-heading">
-								Photography
+								Fotografia
 							</h4>
 							<p class="add-srvc">
-								Etiam pharetra ut ante eget ehy efficitur. Nullam quis felis at nunc vehicula sollicitudin euliquam quis felis atblan dit.
+								Disfruta de los mejores amaneceres y puestas de sol.
 							</p>
 						</div> <!-- /.add-srvc-detail -->
 					</div> <!-- /.custom-table -->
@@ -257,13 +257,13 @@
 
 				<div class="col-md-4 col-sm-6">
 					<div class="custom-table">
-						<img src="<?php echo URL; ?>/assets/images/add-srvc-2.png" alt="" class="add-srvc-img">
+						<img src="<?php echo URL; ?>/atractives/item2/" alt="" class="add-srvc-img">
 						<div class="add-srvc-detail">
 							<h4 class="add-srvc-heading">
-								Cycling
+								Ciclismo
 							</h4>
 							<p class="add-srvc">
-								Etiam pharetra ut ante eget ehy efficitur. Nullam quis felis at nunc vehicula sollicitudin euliquam quis felis atblan dit.
+								Disfruta de los mejores paisajes haciendo un buen ejercicio .
 							</p>
 						</div> <!-- /.add-srvc-detail -->
 					</div> <!-- /.custom-table -->
@@ -271,21 +271,21 @@
 				
 				<div class="col-md-4 col-sm-6">
 					<div class="custom-table">
-						<img src="<?php echo URL; ?>/assets/images/add-srvc-3.png" alt="" class="add-srvc-img">
+						<img src="<?php echo URL; ?>/atractives/item3/" alt="" class="add-srvc-img">
 						<div class="add-srvc-detail">
 							<h4 class="add-srvc-heading">
-								Waking
+								Senderismo
 							</h4>
 							<p class="add-srvc">
-								Etiam pharetra ut ante eget ehy efficitur. Nullam quis felis at nunc vehicula sollicitudin euliquam quis felis atblan dit.
+								Las mejores rutas de caminata con flora y fauna espectacular.
 							</p>
 						</div> <!-- /.add-srvc-detail -->
 					</div> <!-- /.custom-table -->
 				</div> <!-- /.col-md-4 col-sm-6 -->
 
-				<div class="col-md-4 col-sm-6">
+				<!-- <div class="col-md-4 col-sm-6">
 					<div class="custom-table">
-						<img src="<?php echo URL; ?>/assets/images/add-srvc-4.png" alt="" class="add-srvc-img">
+						<img src="<?php echo URL; ?>/atractives/item4/" alt="" class="add-srvc-img">
 						<div class="add-srvc-detail">
 							<h4 class="add-srvc-heading">
 								Skiing
@@ -293,13 +293,13 @@
 							<p class="add-srvc">
 								Etiam pharetra ut ante eget ehy efficitur. Nullam quis felis at nunc vehicula sollicitudin euliquam quis felis atblan dit.
 							</p>
-						</div> <!-- /.add-srvc-detail -->
-					</div> <!-- /.custom-table -->
-				</div> <!-- /.col-md-4 col-sm-6 -->
+						</div>
+					</div> 
+				</div> -->
 
-				<div class="col-md-4 col-sm-6">
+				<!-- <div class="col-md-4 col-sm-6">
 					<div class="custom-table">
-						<img src="<?php echo URL; ?>/assets/images/add-srvc-5.png" alt="" class="add-srvc-img">
+						<img src="<?php echo URL; ?>/atractives/item5/" alt="" class="add-srvc-img">
 						<div class="add-srvc-detail">
 							<h4 class="add-srvc-heading">
 								Sea beach
@@ -307,13 +307,13 @@
 							<p class="add-srvc">
 								Etiam pharetra ut ante eget ehy efficitur. Nullam quis felis at nunc vehicula sollicitudin euliquam quis felis atblan dit.
 							</p>
-						</div> <!-- /.add-srvc-detail -->
-					</div> <!-- /.custom-table -->
-				</div> <!-- /.col-md-4 col-sm-6 -->
+						</div>  /.add-srvc-detail 
+					</div> <!-- /.custom-table 
+				</div> <!-- /.col-md-4 col-sm-6  -->
 
-				<div class="col-md-4 col-sm-6">
+				<!-- <div class="col-md-4 col-sm-6">
 					<div class="custom-table">
-						<img src="<?php echo URL; ?>/assets/images/add-srvc-6.png" alt="" class="add-srvc-img">
+						<img src="<?php echo URL; ?>/atractives/item6/" alt="" class="add-srvc-img">
 						<div class="add-srvc-detail">
 							<h4 class="add-srvc-heading">
 								Hill tracking
@@ -321,9 +321,9 @@
 							<p class="add-srvc">
 								Etiam pharetra ut ante eget ehy efficitur. Nullam quis felis at nunc vehicula sollicitudin euliquam quis felis atblan dit.
 							</p>
-						</div> <!-- /.add-srvc-detail -->
-					</div> <!-- /.custom-table -->
-				</div> <!-- /.col-md-4 col-sm-6 -->
+						</div> <!-- /.add-srvc-detail 
+					</div> <!-- /.custom-table 
+				</div> <!-- /.col-md-4 col-sm-6  -->
 			</div> <!-- /.row -->
 		</div> <!-- /.container -->
 	</section> <!-- /.Additional-services -->

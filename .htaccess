@@ -19,5 +19,24 @@
 	###############################################################
 	###############################################################
 	######  				Sitios de interes				 ######
-	###############################################################		
+	###############################################################
+	###############################################################
+	######   				   Imagenes     				 ######
+	###############################################################
+	#Slider
+		RewriteRule ^slider/item1/$ assets/images/item-1.png [L]
+		RewriteRule ^slider/item2/$ assets/images/item-2.png [L]
+	#Lugares a visitar
+		RewriteRule ^visitplace/item1/$ assets/images/visit-1.png [L]
+		RewriteRule ^visitplace/item2/$ assets/images/visit-2.png [L]
+		RewriteRule ^visitplace/item3/$ assets/images/visit-3.png [L]
+	#Atractivos adicionales
+		RewriteRule ^atractives/item1/$ assets/images/add-srvc-1.png [L]
+		RewriteRule ^atractives/item2/$ assets/images/add-srvc-2.png [L]
+		RewriteRule ^atractives/item3/$ assets/images/add-srvc-3.png [L]
+		RewriteRule ^atractives/item4/$ assets/images/add-srvc-4.png [L]
+		RewriteRule ^atractives/item5/$ assets/images/add-srvc-5.png [L]
+		RewriteRule ^atractives/item6/$ assets/images/add-srvc-6.png [L]
+	#Marcas
+		RewriteRule ^marcs/posadaitzama/$ assets/images/marcas/posadaitzama.png [L]
 </IfModule>
