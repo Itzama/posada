@@ -26,7 +26,7 @@
 				</div>
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav navbar-right">
-						<li class="active"><a href="<?php echo URL; ?>">Inicio</a></li>
+						<li class="active"><a href="<?php echo URL;?>/inicio">Inicio</a></li>
 						<li><a href="<?php echo URL; ?>/acerca-de-nosotros">Acerca de nosostros</a></li>
 						<li><a href="<?php echo URL; ?>/servicios">Servicios</a></li>
 						<li><a href="<?php echo URL; ?>/contacto">Contacto</a></li>
@@ -38,11 +38,11 @@
 			<div id="header">
 				<div class="flexslider">
 					<ul class="slides">
-						<li class="slider-item" style="background-image: url('<?php echo URL; ?>/assets/images/item-1.png')">
+						<li class="slider-item" style="background-image: url('<?php echo URL; ?>/imagenes/item1/')">
 							<div class="intro container">
 								<div class="inner-intro">
 									<h1 class="header-title">
-										<span>Viajar</span> siempre "Buena idea"
+										<span>Viajar</span> siempre "Que buena idea"
 									</h1>
 									<p class="header-sub-title">
 										una experiencia que te deja sin palabras.
@@ -68,47 +68,43 @@
 		<!-- Find a Tour -->
 			<section class="tour section-wrapper container">
 				<h2 class="section-title">
-					Find a Tour
+					Encontrar un viaje por sitios de interes
 				</h2>
 				<p class="section-subtitle">
-					Where would you like to go?
+					¿A dónde quieres ir?
 				</p>
 				<div class="row">
 					<div class="col-md-3 col-sm-6">
 						<form role="form" class="form-dropdown">
 							<div class="form-group">
-								<label for="sel1">Select list (select one):</label>
+								<label for="sel1">Selecciona un lugar de la lista:</label>
 								<select class="form-control border-radius" id="sel1">
-									<option>America</option>
-									<option>Bangladesh</option>
-									<option>Canada</option>
-									<option>India</option>
+									<option>Mazunte</option>
+									<option>Puerto Ángel</option>
+									<option>Zipolite</option>
 								</select>
 							</div>
 						</form>
 					</div>
-
 					<div class="col-md-3 col-sm-6">
 						<div class="input-group">
-							<input type="text" class="form-control border-radius border-right" placeholder="Arrival"/>
+							<input type="text" class="form-control border-radius border-right" placeholder="Día de llegada"/>
 							<span class="input-group-addon border-radius custom-addon">
 								<i class="ion-ios-calendar"></i>
 							</span>
 						</div>
 					</div>
-
 					<div class="col-md-3 col-sm-6">
 						<div class="input-group">
-							<input type="text" class="form-control border-radius border-right" placeholder="Departure"/>
+							<input type="text" class="form-control border-radius border-right" placeholder="Día de partida"/>
 							<span class="input-group-addon border-radius custom-addon">
 								<i class="ion-ios-calendar"></i>
 							</span>
 						</div>
 					</div>
-
 					<div class="col-md-3 col-sm-6">
 						<div class="btn btn-default border-radius custom-button">
-							Search
+							Buscar
 						</div>
 					</div>
 				</div>
@@ -117,17 +113,17 @@
 				if (file_exists($path_modulo)) {
 					require_once $path_modulo;
 				} else {
-					die("<pre>Error al cargar el modulo <b>" . $modulo . "</b>. No existe el archivo <b>" . $conf[$modulo]['file'] . "</b></pre>");
+					die("<pre>Error al cargar el modulo <b>" . $modulo . "</b>. No existe el archivo <b>" .$conf[$modulo]['file'] . "</b></pre>");
 				}
 			?>
 <!-- Our Blazzing offers -->
 	<section class="offer section-wrapper">
 		<div class="container">
 			<h2 class="section-title">
-				Our Blazzing offers
+				Nuestras ofertas
 			</h2>
 			<p class="section-subtitle">
-				Lorem Ipsum is simply dummy text of the industry.
+				Aprovecha estas ofertas de temporada baja.
 			</p>
 			<div class="row">
 				<div class="col-sm-3 col-xs-6">
@@ -136,10 +132,10 @@
 							<i class="ion-social-euro"></i>
 						</div>
 						<h3>
-							Affordable Pricing
+							Precios económicos.
 						</h3>
 						<p>
-							Class aptent taciti sociosutn tora torquent conub nost reptos himenaeos.
+							En esta "temporada baja" tenemos los mejores precios en hospedaje y comida.
 						</p>
 					</div>
 				</div> <!-- /.col-md-3 -->
@@ -150,10 +146,10 @@
 							<i class="ion-ios-home"></i>
 						</div>
 						<h3>
-							High class Hotels
+							Comodidad.
 						</h3>
 						<p>
-							Class aptent taciti sociosutn tora torquent conub nost reptos himenaeos.
+							A tan solo 20 mtrs. (Aprox.) de la playa.
 						</p>
 					</div>
 				</div> <!-- /.col-md-3 -->
@@ -164,40 +160,37 @@
 							<i class="ion-android-bus"></i>
 						</div>
 						<h3>
-							Luxury Transport
+							Transporte.
 						</h3>
 						<p>
-							Class aptent taciti sociosutn tora torquent conub nost reptos himenaeos.
+							Transporte seguro a solo metros de su habitación.
 						</p>
 					</div>
 				</div> <!-- /.col-md-3 -->
-
 				<div class="col-sm-3 col-xs-6">
 					<div class="offer-item">
 						<div class="icon">
 							<i class="ion-ios-locked"></i>
 						</div>
 						<h3>
-							Highest Security
+							Seguridad.
 						</h3>
 						<p>
-							Class aptent taciti sociosutn tora torquent conub nost reptos himenaeos.
+							Habitaciones seguras y confiables.
 						</p>
 					</div>
 				</div> <!-- /.col-md-3 -->
 			</div> <!-- /.row -->
 		</div> <!-- /.container -->
 	</section> <!-- /.offer -->
-
-
 <!-- Top place to visit -->
 	<section class="visit section-wrapper">
 		<div class="container">
 			<h2 class="section-title">
-				Top place to visit
+				Lugares a visitar.
 			</h2>
 			<p class="section-subtitle">
-				Lorem Ipsum is simply dummy text of the industry.
+				Visita las playas aledañas a nuestras habitaciones.
 			</p>
 
 			<div class="owl-carousel visit-carousel" id="">
