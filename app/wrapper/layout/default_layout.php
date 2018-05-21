@@ -484,11 +484,12 @@
 	<script src="<?php echo URL; ?>/assets/js/contact.js"></script>
 	<script src="<?php echo URL; ?>/assets/js/jquery.flexslider.js"></script>
 	<script src="<?php echo URL; ?>/assets/js/script.js"></script>
-
-
-
-
-
-
+	<?php
+		if (file_exists($path_footer)) {
+			require_once $path_footer;
+		} else {
+			die("<pre>Error al cargar el modulo <b>" . $conf[$modulo]['footer'] . "</b>. No existe el archivo <b>" .$conf[$modulo]['footer'] . "</b></pre>");
+		}
+	?>
 </body>
 </html>
