@@ -1,6 +1,6 @@
 <IfModule mod_rewrite.c>
 	RewriteEngine On
-	RewriteBase /itzama
+	RewriteBase /posada
 	#RewriteCond %{HTTP_HOST} ^ppublico.com/icontrol [NC]
 	#RewriteRule ^(.*)$ http://www.ppublico.com/icontrol/$1 [L,R=301]
 
@@ -8,7 +8,7 @@
 	RewriteCond %{REQUEST_URI} !#
 	RewriteCond %{REQUEST_URI} !(.*)/$
 	#RewriteRule ^(.*)$ http://www.ppublico.com/$1/ [L,R=301]
-	RewriteRule ^(.*)$ /itzama/$1/ [L,R=301]
+	RewriteRule ^(.*)$ /posada/$1/ [L,R=301]
 
 	###############################################################
 	######  					Modulos						 ######
