@@ -28,7 +28,7 @@
 		</ul>
 	</div>
 </div>
-<section class="tour section-wrapper container">
+<!-- <section class="tour section-wrapper container">
 	<h2 class="section-title">Encontrar un viaje por sitios de interes</h2>
 	<p class="section-subtitle">
 		¿A dónde quieres ir?
@@ -68,7 +68,7 @@
 			</div>
 		</div>
 	</div>
-</section>
+</section> -->
 <section class="offer section-wrapper">
 	<div class="container">
 		<h2 class="section-title">Nuestras ofertas</h2>
@@ -131,22 +131,7 @@
 		</p>
 		<div class="owl-carousel visit-carousel" id="">
 			<div class="item">
-				<img src="<?php echo URL; ?>/visitplace/item1/" alt="visit-image" class="img-responsive visit-item">
-			</div>
-			<div class="item">
-				<img src="<?php echo URL; ?>/visitplace/item2/" alt="visit-image" class="img-responsive visit-item">
-			</div>
-			<div class="item">
-				<img src="<?php echo URL; ?>/visitplace/item3/" alt="visit-image" class="img-responsive visit-item">
-			</div>
-			<div class="item">
-				<img src="<?php echo URL; ?>/visitplace/item1/" alt="visit-image" class="img-responsive visit-item">
-			</div>
-			<div class="item">
-				<img src="<?php echo URL; ?>/visitplace/item2/" alt="visit-image" class="img-responsive visit-item">
-			</div>
-			<div class="item">
-				<img src="<?php echo URL; ?>/visitplace/item3/" alt="visit-image" class="img-responsive visit-item">
+				<a href="<?php echo URL; ?>/post/Playa-Panteon" title="Lee a cerca de playa panteón"><img src="<?php echo URL; ?>/visitplace/item1/" alt="visit-image" class="img-responsive visit-item"></a>
 			</div>
 		</div>
 	</div>

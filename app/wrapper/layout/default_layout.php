@@ -11,6 +11,8 @@
 		<link rel="stylesheet" href="<?php echo URL; ?>/assets/css/owl.theme.css">
 		<link rel="stylesheet" href="<?php echo URL; ?>/assets/css/flexslider.css" type="text/css">
 		<link rel="stylesheet" href="<?php echo URL; ?>/assets/css/main.css">
+		<link rel="stylesheet" href="<?php echo URL; ?>/assets/css/helperCss.css">
+		<link rel="stylesheet" href="<?php echo URL; ?>/assets/plugins/font-awesome/css/all.min.css">
 	</head>
 	<body>
 		<nav class="navbar navbar-default navbar-fixed-top">
@@ -51,7 +53,7 @@
 					</div>
 				</div>
 				<div class="col-xs-4">
-					Sitio desarrollado por <a href="http://www.dicozip.com">DICOZIP</a>
+					Sitio desarrollado por <a href="https://discozip.online" target="_blanck">DICOZIP</a>
 				</div>
 				<div class="col-xs-4">
 					<div class="top">
@@ -75,7 +77,7 @@
 		if (file_exists($path_footer)) {
 			require_once $path_footer;
 		} else {
-			die("<pre>Error al cargar el modulo <b>" . $conf[$modulo]['footer'] . "</b>. No existe el archivo <b>" .$conf[$modulo]['footer'] . "</b></pre>");
+			die("<pre>Error al cargar el footer <b>" . $conf[$modulo]['footer'] . "</b>. No existe el archivo <b>" .$conf[$modulo]['footer'] . "</b></pre>");
 		}
 	?>
 </body>
